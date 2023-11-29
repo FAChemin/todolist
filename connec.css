@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(images/to-do-list-text-on-notepad-pen-and-potted-plant-on-wooden-table-flat-lay-free-photo.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    justify-content: center;
+    background-size: cover;
+    background-position: -1cm -1cm -1cm;
+    object-fit: scale-down;
+}
+
+
+#h1{
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+
+.formulaire{
+    justify-content: center;
+    color:black;
+    padding: 15rem;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(34, 123, 206);
+    border-color: rgb(34, 123, 206);
+    border-radius: 10px;
+    color: white;
+    text-transform: capitalize;
+    margin: 1rem;
+    padding: 0.7rem;
+
+}
+input{
+    border-radius: 0.3rem;
+    align-items: center;
+    margin: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
